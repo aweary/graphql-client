@@ -1,0 +1,10 @@
+[ignore]
+.*/coverage/.*
+.*/test-client/.*
+.*/node_modules/flow-bin/.*
+
+[include]
+
+[libs]
+
+[options]

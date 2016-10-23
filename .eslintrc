@@ -1,0 +1,49 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "plugins": [
+    "flow-vars"
+  ],
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "parserOptions": {
+      "sourceType": "module"
+  },
+  "rules": {
+    "no-console": [
+      "warn"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "flow-vars/define-flow-type": 1,
+    "flow-vars/use-flow-type": 1,
+    "indent": [
+        "error",
+        2
+    ],
+    "linebreak-style": [
+        "error",
+        "unix"
+    ],
+    "quotes": [
+        "error",
+        "single",
+        { "allowTemplateLiterals": true }
+    ],
+    "semi": [
+        "error",
+        "never"
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ]
+  }
+}
